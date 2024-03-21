@@ -135,7 +135,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                         )
                         if output:
                             st.toast(
-                                'Your image has been generated!', icon='')
+                                'Your image has been generated!', icon='🎈')
                             # Save generated image to session state
                             st.session_state.generated_image = output
 
