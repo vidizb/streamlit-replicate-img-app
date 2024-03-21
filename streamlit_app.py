@@ -135,7 +135,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                         )
                         if output:
                             st.toast(
-                                'Your image has been generated!', icon='😍')
+                                'Your image has been generated!', icon='')
                             # Save generated image to session state
                             st.session_state.generated_image = output
 
@@ -182,7 +182,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
     # Gallery display for inspo
     with gallery_placeholder.container():
         img = image_select(
-            label="Like what you see? Right-click and save! It's not stealing if we're sharing! 😉",
+            label="Like what you see? Right-click and save! It's not stealing if we're sharing!",
             images=[
                 "gallery/farmer_sunset.png",
             ],
