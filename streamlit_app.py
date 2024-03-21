@@ -187,7 +187,6 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                 "gallery/farmer_sunset.png",
             ],
             captions=["A farmer tilling a farm with a tractor during sunset, cinematic, dramatic",
-                      "An astronaut riding a rainbow unicorn, cinematic, dramatic",
                       ],
             use_container_width=True
         )
